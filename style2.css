@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    background-color: #F2F2F2;
+}
+
+#header {
+    background-color: #1F203A;
+}
+
+.menu-bar {
+    padding: 30px 60px;
+}
+
+.menu-bar img {
+    width: 50px;
+}
+
+.menu-bar a {
+    position: absolute;
+    display: block;
+    right: 70px;
+    font-size: 27px;
+    color: #FFF;
+}
+
+#section1 {
+    background-color: #EEEEEE;
+    height: 65vh;
+}
+
+#img1 {
+    text-align: center;
+}
+
+#img1 img {
+    width: 442px;
+    height: 442px;
+    border: 9px solid #FFF;
+    border-radius: 250px;
+}
+
+#section2 {
+    padding: 40px 0;
+}
+
+#fheading {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.fheading {
+    flex-direction: column;
+}
+
+#fheading p  {
+    font-size: 45px;
+    letter-spacing: 4px;
+}
+
+
+.IFrom {
+    font-size: 19px;
+    margin-top: 20px; 
+    color: black;  
+}
+
+.IFrom a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#designer p {
+    font-size: 66px;
+    margin-bottom: -90px;
+    padding: 10px;
+    text-align: start;
+}
+
+#img2 {
+    width: 95%;
+    margin-top: 150px;
+    height: 76%;
+}
+
+#img2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#img3 {
+    width: 95%;
+}
+
+#img3 img {
+    height: 100%;
+}
+
+.freepick {
+    margin-top: 25px;
+}
+
+.freepick p {
+    font-size: 17px;
+}
+
+.freepick a {
+    text-decoration: none;
+    color: black;
+}
+
+.button1 {
+    background-color: #E5E5E5;
+    margin-top: 25px;
+    padding: 10px 35px;
+    border: 2px solid black;
+}
+
+.button1:hover {
+    border: 2px solid transparent;
+}
+
+#box {
+    height:420px ;
+    background-color: #E5E5E5;
+    margin-top : -25%;
+}
+
+#section4 {
+    padding: 60px 0;
+}
+
+#ggg{
+    padding-left: 155px;
+    text-align: end;
+}
+
+#content-left h1 {
+    font-size: 130px;
+}
+
+#content-right {
+    margin-top: 208px;
+}
+
+#content-right p {
+    text-align: start;
+    line-height: 25px;
+    width: 75%;
+}
+
+#btn2 {
+    margin-top: 17px;
+    padding: 10px 40px;
+    border: 2px solid #FFA54D;
+    background-color: #FFA54D;
+    height: 50px;
+    width: 180px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+#section3{
+    padding: 0;
+}
+ 
+#section5 {
+    margin-top:130px;
+}
+
+#underline {
+    background-color: #1F203A;
+    height: 5px;
+    width: 100%;
+}
+
+#section6 {
+    margin: 50px 0;
+}
+
+#huzi {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#design p {
+    font-size: 33px;
+    line-height: 60px;
+    padding-left: 200px;
+    letter-spacing: 2px;
+}
+
+#arr-icon {
+    padding-left: 140px;
+}
+
+#arr-icon i {
+    font-size: 80px;
+}
+
+#view {
+    margin-top: 10px;
+    padding-left: 130px;
+}
+
+#view h3 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/*  */
+
+
+ul.portfolio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul.portfolio li {
+    width: 33.33%;
+}
+
+ul.portfolio li a {
+    transition: all 0.2s ease-in;
+    display: block;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+ul.portfolio li a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ul.portfolio li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in;
+}
+
+ul.portfolio li a:hover:before {
+    opacity: 1;
+    transition: all 0.5s ease-out;
+    background-color: #FFA54D;
+}
+
+#linkss {
+    margin-top: 30px;
+    padding-left: 230px;
+}
+
+.img-from {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+.img-from p {
+    font-size: 17px;
+}
+
+.img-from a {
+    text-decoration: none;
+    color: black;
+}
+
+#btn3 {
+    margin-top: 17px;
+    padding: 10px 40px;
+    border: 2px solid #FFA54D;
+    background-color: #FFA54D;
+    height: 50px;
+    width: 180px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+#section7 {
+    padding: 150px 0 50px;
+}
+
+#visual {
+    font-size: 33px;
+    line-height: 39px;
+    width: 90%;
+}
+
+#pellen {
+    font-size: 17px;
+    line-height: 30px;
+    width: 90%;
+}
+
+#viverra {
+    font-size: 17px;
+    text-align: end;
+    margin-top: 200px;
+    line-height: 30px;
+    width: 82%;
+    padding-left: 20px;
+}
+
+#btn4 {
+    margin-top: 17px;
+    padding: 10px 40px;
+    border: 2px solid #FFA54D;
+    background-color: #FFA54D;
+    height: 50px;
+    width: 180px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*  */
+
+.last-section{
+    background-repeat: no-repeat;
+    height: 50vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/bg.jpg');
+    background-position: 50% 50%;
+}
+
+#heading5{
+    text-align: center;
+    padding-top: 8%;
+    color: #fff;
+    font-size: 22px;
+}
+
+#heading6{
+    text-align: center;    
+    color: #fff;
+    font-size: 22px;
+}
+
+#content-icons a{
+    color: #FFF;
+    font-size: 45px;
+    margin: 12px;
+  
+}
+
+.img-from2 {
+   text-align: center;
+   color: #FFF;
+   font-size: 19px;
+   padding-top: 10px;
+}
+
+.img-from2 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/*  */
+
+#section9 {
+    background-color: #1F203A;
+    height: 20vh;
+}
+
+#sample-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+/*  */
+
+#footer {
+    height: 15vh;
+    background-color: #333333;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.bottom-footer  {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bottom-footer a {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+
+/* === RESPONSIVE CSS === */
+
+@media only screen and (min-width:961px) {
+    ul.portfolio {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

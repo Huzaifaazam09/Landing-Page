@@ -1,0 +1,223 @@
+@media only screen and (min-width:320px) and (max-width:641px) {
+    #ggg {
+        padding-left: 40px;
+        text-align: end;
+    }
+
+    #content-left h1 {
+        font-size: 73px;
+    }
+
+    #content-right {
+        margin-top: 130px;
+        margin-left: 5px;
+    }
+
+    #content-right p {
+        text-align: start;
+        line-height: 25px;
+        width: 90%;
+    }
+
+    #section1 {
+        height: 40vh;
+    }
+
+    #img1 img {
+        width: 242px;
+        height: 242px;
+        border: 9px solid #FFF;
+    }
+
+    #fheading {
+        text-align: center;
+        margin-top: 80px;
+    }
+    #fheading p {
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+
+    #duis {
+        font-size: 16px;
+        width: auto;
+    }
+
+    .IFrom {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+
+    .link {
+        margin-top: 15px;
+    }
+
+    #designer p {
+        font-size: 30px;
+        margin-bottom: -135px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #img2 {
+        text-align: center;
+        width: 100%;
+        margin-top: 140px;
+    }
+
+    #img3 {
+        width: 100%;
+    }
+
+    #box {
+        height:680px;
+        margin-top : -190%;
+    }
+
+    .freepick {
+        margin-top: 35px;
+        text-align: center;
+    }
+
+    .button1 {
+        margin-top: 15px;
+        margin-left: 75px;
+        padding: 10px 35px;
+    }
+
+    #section5 {
+        margin-top: 50px;
+    }
+
+    #underline {
+        background-color: #1F203A;
+        height: 5px;
+        width: 240px;
+    }
+    
+    #design p {
+        font-size: 22px;
+        line-height: 32px;
+        padding-left: 70px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    #arr-icon {
+        padding-left: 70px;
+    }
+
+    #view {
+        margin-top: 10px;
+        padding-left: 70px;
+    }
+
+
+
+
+
+
+    /*  */
+
+    #linkss {
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .img-from {
+        margin-top: 14px;
+        margin-bottom: 4px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    #visual {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #pellen {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #btn4 {
+        margin-left: 10px;
+    }
+
+    #viverra {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .last-section {
+        height: 55vh;
+    }
+
+    #heading5 {
+        text-align: center;
+        padding-top: 8%;
+        color: #fff;
+        font-size: 18px;
+    }    
+
+    .img-from2 {
+        font-size: 17px;
+        padding-top: 15px;
+    }
+
+    #content-icons a {
+        color: #FFF;
+        font-size: 35px;
+        margin: 6px;
+    }
+
+    .bottom-footer {
+        font-size: 9px;
+    }
+
+    #sample-text {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width:481px) {}
+@media only screen and (min-width:641px) {}
+@media only screen and (min-width:961px) {}
+@media only screen and (min-width:1025px) {}
+@media only screen and (min-width:1281px) {
+
+}
